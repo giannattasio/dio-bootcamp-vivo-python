@@ -14,3 +14,13 @@ print(numero_de_faltas)
 
 continente = ("Ásia",)
 print(continente)
+
+
+matriz = (
+    (5, "alo", 3),
+    ("boa", 7, 11),
+    (6, 15, "oi"),
+)
+print(matriz[1][-2])
+print(matriz[2][2][1])
+print(matriz[-1][-1])
